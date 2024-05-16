@@ -22,3 +22,28 @@ The dataset comprises-
 - z [depth in mm (0--31.8)] - NUMERICAL DATA
 - depth [total depth percentage = z / mean(x, y) = 2 * z / (x + y) (43--79)] - NUMERICAL DATA
 - table [width of top of diamond relative to widest point (43--95)] - NUMERICAL DATA
+
+# BASIC EDA :
+1. ![alt text](https://github.com/tanishaagarwal195/Machine-Learning/blob/main/CAC%20assignment/images/outputEDA1.png)
+2. ![alt text](https://github.com/tanishaagarwal195/Machine-Learning/blob/main/CAC%20assignment/images/outputEDA2.png)
+3. ![alt text](https://github.com/tanishaagarwal195/Machine-Learning/blob/main/CAC%20assignment/images/outputEDA3.png)
+4. ![alt text](https://github.com/tanishaagarwal195/Machine-Learning/blob/main/CAC%20assignment/images/outputEDA4.png)
+5. ![alt text](https://github.com/tanishaagarwal195/Machine-Learning/blob/main/CAC%20assignment/images/outputEDA5.png) 
+6. ![alt text](https://github.com/tanishaagarwal195/Machine-Learning/blob/main/CAC%20assignment/images/outputEDA6.png) 
+7. ![alt text](https://github.com/tanishaagarwal195/Machine-Learning/blob/main/CAC%20assignment/images/outputEDA7.png)
+
+# PCA
+![alt text](https://github.com/tanishaagarwal195/Machine-Learning/blob/main/CAC%20assignment/images/PCA-corr.png)
+
+### PCA SCATTER PLOT
+![alt text](https://github.com/tanishaagarwal195/Machine-Learning/blob/main/CAC%20assignment/images/scatterplot.png)
+
+## LINEAR REGRESSION
+![alt text](https://github.com/tanishaagarwal195/Machine-Learning/blob/main/CAC%20assignment/images/LR.png)
+
+## SVR (AUPPORT VECTOR REGRESSION)
+![alt text](https://github.com/tanishaagarwal195/Machine-Learning/blob/main/CAC%20assignment/images/SVR.png)
+
+### Overall Observation:
+SVM Classification Performance: The choice of binning strategy for the target variable significantly affects the performance of SVM models. Fewer bins (4 bins) led to better performance, indicating that simpler class structures were easier for the model to learn. 
+Regression Performance with PCA: SVR outperformed Linear Regression in the reduced-dimensional space created by PCA. The higher R-squared and lower MSE for SVR suggest it is better suited for capturing complex relationships in the data.
